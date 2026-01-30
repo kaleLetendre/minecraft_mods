@@ -32,12 +32,32 @@ No mods installed yet.
 
 ### For Players
 
-1. Clone this repository
-2. Run the sync script to download all mods:
+1. Clone this repository:
    ```bash
-   ./sync-mods.sh
+   git clone [repository-url] minecraft-server-mods
+   cd minecraft-server-mods
    ```
-3. Mods will be copied to your Minecraft mods folder
+
+2. Run the sync script:
+   - **Linux/Mac:**
+     ```bash
+     ./sync-mods.sh
+     ```
+   - **Windows:**
+     ```cmd
+     sync-mods.bat
+     ```
+
+3. Mods will be copied to your Minecraft mods folder automatically
+   - Linux: `~/.minecraft/mods`
+   - Mac: `~/Library/Application Support/minecraft/mods`
+   - Windows: `%APPDATA%\.minecraft\mods`
+
+4. When new mods are added, update with:
+   ```bash
+   git pull
+   # Then run sync script again
+   ```
 
 ## Notes
 
