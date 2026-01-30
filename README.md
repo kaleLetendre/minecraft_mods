@@ -2,6 +2,10 @@
 
 Minecraft 1.20.1 Fabric Server Mod Collection
 
+## Server Address
+
+**Connect to:** `thebluesoft.ca:25565`
+
 ## Current Mods
 
 <!-- Add mods below as you install them -->
@@ -32,6 +36,18 @@ No mods installed yet.
 
 ### For Players
 
+**Requirements:**
+- Minecraft 1.20.1
+- Fabric Loader installed
+
+#### Step 1: Install Fabric
+
+1. Download Fabric installer: https://fabricmc.net/use/installer/
+2. Run the installer and select Minecraft 1.20.1
+3. Launch Minecraft and select the "fabric-loader-1.20.1" profile
+
+#### Step 2: Install Server Mods
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/kaleLetendre/minecraft_mods.git minecraft-server-mods
@@ -53,11 +69,21 @@ No mods installed yet.
    - Mac: `~/Library/Application Support/minecraft/mods`
    - Windows: `%APPDATA%\.minecraft\mods`
 
-4. When new mods are added, update with:
-   ```bash
-   git pull
-   # Then run sync script again
-   ```
+#### Step 3: Connect to Server
+
+1. Launch Minecraft with the Fabric profile
+2. Add server: `thebluesoft.ca:25565`
+3. Join and play!
+
+#### Updating Mods
+
+When new mods are added to the server:
+```bash
+cd minecraft-server-mods
+git pull
+./sync-mods.sh  # or sync-mods.bat on Windows
+```
+Then restart Minecraft.
 
 ## Notes
 
