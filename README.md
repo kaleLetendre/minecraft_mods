@@ -34,7 +34,7 @@ No mods installed yet.
 
 1. Clone this repository:
    ```bash
-   git clone [repository-url] minecraft-server-mods
+   git clone https://github.com/kaleLetendre/minecraft_mods.git minecraft-server-mods
    cd minecraft-server-mods
    ```
 
