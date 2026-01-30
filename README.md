@@ -78,11 +78,21 @@ No mods installed yet.
 #### Updating Mods
 
 When new mods are added to the server:
+
+**Linux/Mac:**
 ```bash
 cd minecraft-server-mods
 git pull
-./sync-mods.sh  # or sync-mods.bat on Windows
+./sync-mods.sh
 ```
+
+**Windows:**
+```cmd
+cd minecraft-server-mods
+git pull
+sync-mods.bat
+```
+
 Then restart Minecraft.
 
 ## Notes
