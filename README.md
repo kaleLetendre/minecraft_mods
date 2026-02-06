@@ -1,6 +1,6 @@
 # Minecraft Server Mods
 
-Minecraft 1.20.1 Fabric Server Mod Collection
+Minecraft 1.21.1 Fabric Server Mod Collection
 
 ## Server Address
 
@@ -37,14 +37,14 @@ No mods installed yet.
 ### For Players
 
 **Requirements:**
-- Minecraft 1.20.1
+- Minecraft 1.21.1
 - Fabric Loader installed
 
 #### Step 1: Install Fabric
 
 1. Download Fabric installer: https://fabricmc.net/use/installer/
-2. Run the installer and select Minecraft 1.20.1
-3. Launch Minecraft and select the "fabric-loader-1.20.1" profile
+2. Run the installer and select Minecraft 1.21.1
+3. Launch Minecraft and select the "fabric-loader-1.21.1" profile
 
 #### Step 2: Install Server Mods
 
@@ -97,6 +97,6 @@ Then restart Minecraft.
 
 ## Notes
 
-- Server version: Minecraft 1.20.1 with Fabric
-- All mods must be compatible with Fabric 1.20.1
+- Server version: Minecraft 1.21.1 with Fabric
+- All mods must be compatible with Fabric 1.21.1
 - Players need the same mods installed to join the server
